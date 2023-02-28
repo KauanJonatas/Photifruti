@@ -1,25 +1,60 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from "react";
+import "./App.css"
+import alface from "./imagens/alface.png";
+import beterraba from "./imagens/beterraba.png";
+import cenoura from "./imagens/cenoura.png";
+import cereja from "./imagens/cereja.png";
+import laranja from "./imagens/laranja.png";
+import limao from "./imagens/limao.png";
+import manga from "./imagens/manga.png";
+import tomate from "./imagens/tomate.png";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+
+  state = {
+    frutas:[
+      {
+        imagem: alface
+      },
+      {
+        imagem: laranja
+      },
+      {
+        imagem: cereja
+      },
+      {
+        imagem: cenoura
+      },
+      {
+        imagem: manga
+      },
+      {
+        imagem: limao
+      },
+      {
+        imagem: beterraba
+      },
+      {
+        imagem: tomate
+      }
+    ]
+  }
+
+  render(){
+    return(
+      <div>
+        <h1>Hortifruti VnW</h1>
+        <h2>Nossos Produtos</h2>
+        <div className="box">
+          {this.state.frutas.map((fruta)=>(
+            <div>
+            <img src={fruta.imagem}></img>
+            </div>
+          ))}
+        </div>
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
