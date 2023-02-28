@@ -1,9 +1,88 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-.box{
-  border: solid red;
+body {
+  background-color: #F66000;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 90px;
+  height: 20vh;
+  width: 50vw;
+  color: white;
+}
+
+.vnw {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  height: 13vh;
+  width: 50vw;
+  font-size: 64px;
+  color: white;
+}
+
+.usProducts {
+  font-family: 'Inter', sans-serif;
+  border: solid pink;
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  font-size: 65px;
+  color: white;
+}
+
+.box {
+  display: flex;
+  position: relative;
+  left: 11vw;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: fit-content;
+  width: 800px;
+  height: 50vh;
+  border: solid blue;
+}
+
+
+.frutaBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 175px;
+  width: 160px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+img {
+  height: 150px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid;
+
+  width: 60vw;
+}
+
+.border{
+width: 440px;
+height: 656px;
+background: #F7E0CE;
+border-radius: 120px;
 }
