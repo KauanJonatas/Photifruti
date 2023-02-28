@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-
 * {
   margin: 0px;
   padding: 0px;
@@ -34,55 +33,9 @@ h1 {
   color: white;
 }
 
-.usProducts {
-  font-family: 'Inter', sans-serif;
-  border: solid pink;
-  display: flex;
-  justify-content: center;
-  width: 50vw;
-  font-size: 65px;
-  color: white;
-}
-
-.box {
-  display: flex;
-  position: relative;
-  left: 11vw;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  height: fit-content;
-  width: 800px;
-  height: 50vh;
-  border: solid blue;
-}
-
-
-.frutaBox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 175px;
-  width: 160px;
-  border-radius: 20px;
-  background-color: white;
-}
-
-img {
-  height: 150px;
-}
-
 main{
   display: flex;
-  flex-direction: column;
-  border: 3px solid;
-
-  width: 60vw;
+  border: solid;
+  justify-content: space-around;
 }
 
-.border{
-width: 440px;
-height: 656px;
-background: #F7E0CE;
-border-radius: 120px;
-}

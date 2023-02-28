@@ -1,0 +1,20 @@
+.border {
+    display: flex;
+    justify-content: center;
+    width: 440px;
+    height: 600px;
+    background: #F7E0CE;
+    border-radius: 120px;
+}
+
+.cartBox {
+    margin-top: 60px;
+    width: 356px;
+    height: 355px;
+    background: #D3C5BB;
+    border-radius: 80px;
+}
+
+.button {
+    
+}

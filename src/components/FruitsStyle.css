@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.usProducts {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    font-size: 50px;
+    color: white;
+  }
+  
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: 750px;
+    height: 50vh;
+    border: solid red;
+  
+  }
+  
+  
+  .frutaBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 175px;
+    width: 160px;
+    border-radius: 20px;
+    background-color: white;
+  }
+  
+  img {
+    height: 150px;
+  }
