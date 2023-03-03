@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css"
-import "./components/Fruits.js";
 import Frutas from "./components/Fruits";
 import Cart from "./components/Cart"
 

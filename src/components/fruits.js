@@ -1,5 +1,5 @@
-import React, { Component } from "react"
-import "./FruitsStyle.css" 
+import React, { Component } from "react";
+import "./FruitsStyle.css";
 import alface from "./imagens/alface2.png";
 import beterraba from "./imagens/beterraba2.png";
 import cenoura from "./imagens/cenoura2.png";

@@ -9,7 +9,7 @@
 .usProducts {
     font-family: 'Inter', sans-serif;
     display: flex;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
   }
   
@@ -21,8 +21,6 @@
     height: fit-content;
     width: 750px;
     height: 50vh;
-    border: solid red;
-  
   }
   
   
@@ -32,7 +30,7 @@
     justify-content: center;
     height: 175px;
     width: 160px;
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: white;
   }
   
